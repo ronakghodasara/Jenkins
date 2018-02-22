@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    node {
+      label 'CCU_Slave_test'
+    }
+    
+  }
   stages {
     stage('Stage1') {
       steps {
