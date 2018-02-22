@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'CCU_Slave_test'
+      label 'master'
     }
     
   }
